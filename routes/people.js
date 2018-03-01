@@ -18,7 +18,7 @@ router.route('/')
 
     .post(function (req, res) {
 
-        models.People.create({
+        models.Person.create({
             name: req.body.name,
             email: req.body.email
         })
